@@ -1,0 +1,29 @@
+# テーマ
+# - Gruvbox Dark: レトロな暖色系、落ち着いたアース調
+# - Nord: 北欧風の青みがかったクールな色調
+# - Catppuccin Frappe: パステル系、青みのある柔らかいダーク
+# - Catppuccin Macchiato: Frappeより暗め、深みのある青紫
+# - TokyoNight: 夜の東京、青紫系でモダン
+# - Dracula: 人気の紫ベース、コントラスト高め
+# - One Dark: Atom由来、バランスの良いダーク
+theme = Gruvbox Dark
+
+# ウィンドウ
+macos-titlebar-style = hidden
+
+# Quick Terminal（グローバルホットキー）
+keybind = global:super+ctrl+space=toggle_quick_terminal
+
+# Quick Terminalの設定
+quick-terminal-position = right
+quick-terminal-size = 50%
+quick-terminal-autohide = false
+
+# ペイン間移動
+keybind = ctrl+super+h=goto_split:left
+keybind = ctrl+super+j=goto_split:down
+keybind = ctrl+super+k=goto_split:up
+keybind = ctrl+super+l=goto_split:right
+
+# Shift+Enterで改行
+keybind = shift+enter=text:\n
