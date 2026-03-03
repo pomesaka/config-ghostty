@@ -9,14 +9,13 @@
 theme = Gruvbox Dark
 
 # ウィンドウ
-macos-titlebar-style = hidden
+macos-titlebar-style = transparent
 
 # Quick Terminal（グローバルホットキー）
-keybind = global:super+ctrl+space=toggle_quick_terminal
+keybind = global:super+space=toggle_quick_terminal
 
 # Quick Terminalの設定
 quick-terminal-position = right
-quick-terminal-size = 50%
 quick-terminal-autohide = false
 
 # ペイン間移動
